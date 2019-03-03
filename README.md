@@ -1,6 +1,6 @@
 # Plant-o-mat
 A device based on the Attiny13 which notify you if your plant needs water.
-The firmware of the device is optimized for low power consumption.
+The firmware of the device is written in C (AVR-GCC) and optimized for low power consumption.
 
 # Features
 - Notify you if the humidity of your planting pot drops below a adjustable Threshold
@@ -26,7 +26,10 @@ PB4 = LDR
 
 5. Watering your plants (do not water the Plant-o-mat, exept he has a waterproof housing).
 
-# Changes & Fixes in the latest version:
- 
+# Changes & Fixes in the latest version: 
 - Fix issue when setting EEPROM-Trigger up to 4 seconds after startup fails
 - Reduce Overhead
+
+# ToDo:
+- migrate to the Attiny13A (lower power consuption)
+- build a prototype
